@@ -56,11 +56,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CheckBox.cs" />
+    <Compile Include="Page\BasePage.cs" />
+    <Compile Include="Page\DropDownSeleniumPage.cs" />
+    <Compile Include="Page\Open24LoginPage.cs" />
+    <Compile Include="Page\SeleniumCheckBoxPage.cs" />
+    <Compile Include="Page\SeleniumInputPage.cs" />
+    <Compile Include="Page\VartuTechnikaPage.cs" />
+    <Compile Include="Test\CromeDriver.cs" />
+    <Compile Include="Test\DropDownSeleniumTest.cs" />
+    <Compile Include="Test\Iwebdriver.cs" />
+    <Compile Include="Test\Open24Test.cs" />
+    <Compile Include="Test\SeleniumCheckBoxTest.cs" />
+    <Compile Include="Test\SeleniumInputTest.cs" />
+    <Compile Include="Test\VartuTechnikaTest.cs" />
     <Compile Include="uzd2_ND2.cs" />
     <Compile Include="MicrosoftEdgeDriver1.cs" />
     <Compile Include="ND2_1uzd.cs" />
     <Compile Include="VartuTechnka.cs" />
-    <Compile Include="firstInput\IWebElement.cs" />
+    <Compile Include="IWebElement.cs" />
     <Compile Include="ND1Selenium.cs" />
     <Compile Include="Demo.cs" />
     <Compile Include="microsoftedgeDriver.cs" />
@@ -70,6 +83,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
